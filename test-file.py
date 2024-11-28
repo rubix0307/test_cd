@@ -1,0 +1,1 @@
+open('good.txt', 'a').write('hello world\n')
