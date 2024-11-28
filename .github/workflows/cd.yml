@@ -24,6 +24,6 @@ jobs:
       run: |
         ssh user@${{ secrets.SERVER_IP }} << 'EOF'
           cd ~/test-cd
-          git pull origin main
+          git pull origin master
           python3 test-file.py
         EOF
